@@ -5,8 +5,14 @@ public class second{
     public static void main(String[] args){
 
         Scanner scanner=new Scanner(System.in);
-        scanner.close();
+        System.out.println("Enter the first side value");
+        double x=scanner.nextDouble();
+        System.out.println("Enter the second side value");
+        double y=scanner.nextDouble();
 
-        System.out.println("hello");
+        double z=Math.sqrt((x*x)+(y*y));
+        
+        System.out.println("The hypotenuse of the triangle is "+z);
+        scanner.close();
     }
 }
