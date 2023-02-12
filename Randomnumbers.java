@@ -13,6 +13,6 @@ public class Randomnumbers{
         System.out.println(y);
 
         boolean z=random.nextBoolean();
-        System.out.println(z);
+        System.out.println(z)
     }
 }
